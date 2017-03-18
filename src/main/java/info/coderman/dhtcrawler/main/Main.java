@@ -39,7 +39,6 @@ public class Main extends Thread {
  	
 	@Override
 	public void run() {
-		
 		//连接redis缓存服务器
 		Jedis jedis = RedisPool.getJedis();
 		if (jedis == null) {
@@ -70,7 +69,6 @@ public class Main extends Thread {
 			
 			@Override
 			public void onGetPeers(InetSocketAddress address, byte[] info_hash) {
-				//System.out.println("get_peers request, address:" + address.getHostString() + ", info_hash:" + ByteUtil.byteArrayToHex(info_hash));
 			}
 		});
 		
