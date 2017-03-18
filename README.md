@@ -3,6 +3,8 @@
 ## 协议参考：
   1. http://blog.csdn.net/xxxxxx91116/article/details/7970815
   2. http://www.xuebuyuan.com/1287052.html 
+  3. http://www.bittorrent.org/beps/bep_0005.html
+  4. http://www.bittorrent.org/beps/bep_0002.html
   
 ## 使用技术
   Redis、Netty、torrent-utils、bee-encode
